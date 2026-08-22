@@ -1,0 +1,35 @@
+name = "hex-gf2-mathlib"
+defaultTargets = ["HexGF2Mathlib"]
+
+leanOptions = [
+  { name = "doc.verso", value = true },
+  { name = "doc.verso.suggestions", value = false },
+]
+
+[[require]]
+name = "HexGF2"
+git = "https://github.com/leanprover/hex-gf2.git"
+rev = "0df4d0995b40ead932884380a3047ebbe78476a6"
+
+[[require]]
+name = "HexPolyFp"
+git = "https://github.com/leanprover/hex-poly-fp.git"
+rev = "63d11e9652020e83629808977bff618e99d21234"
+
+[[require]]
+name = "HexGFqField"
+git = "https://github.com/leanprover/hex-gfq-field.git"
+rev = "cfdce9529549ac6ea8423da0d88647e795aa266b"
+
+[[require]]
+name = "HexPolyFpMathlib"
+git = "https://github.com/leanprover/hex-poly-fp-mathlib.git"
+rev = "86bf32730361199f12e5f920261dcc787192798e"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.33.0-rc1"
+
+[[lean_lib]]
+name = "HexGF2Mathlib"
