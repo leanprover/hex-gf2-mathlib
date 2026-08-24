@@ -9,27 +9,27 @@ leanOptions = [
 [[require]]
 name = "HexGF2"
 git = "https://github.com/leanprover/hex-gf2.git"
-rev = "22a330f6ae7cfac7330b3d0a289f3db761a3a940"
+rev = "df31f2b5b3d7f16b344324d7db6566e2155d0824"
 
 [[require]]
 name = "HexPolyFp"
 git = "https://github.com/leanprover/hex-poly-fp.git"
-rev = "3d2cc1c30b0e17dfec35858e9d5fa8d75e1f241b"
+rev = "1a21ec21624b3353559d0d6f386e5d5f24ccbc62"
 
 [[require]]
 name = "HexGFqField"
 git = "https://github.com/leanprover/hex-gfq-field.git"
-rev = "34b687dab548ce2d8bd382bfb5cecf1b314ca38a"
+rev = "a30fde3f1cfec4b312e74d5fa54eca30438b9a5f"
 
 [[require]]
 name = "HexPolyFpMathlib"
 git = "https://github.com/leanprover/hex-poly-fp-mathlib.git"
-rev = "e46f2f401aaf969d77db8003f235686449cf0c3f"
+rev = "4cf1484372c505472e554dbcfade0a415bff9820"
 
 [[require]]
 name = "mathlib"
 git = "https://github.com/leanprover-community/mathlib4.git"
-rev = "v4.33.0-rc1"
+rev = "v4.34.0-rc2"
 
 [[lean_lib]]
 name = "HexGF2Mathlib"
